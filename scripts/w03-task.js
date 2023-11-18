@@ -67,4 +67,5 @@ document.querySelector('#sumOfArray').innerHTML = numbers.reduce((add, number) =
 /* Output Multiplied by 2 Array */
 document.querySelector('#multiplied').innerHTML = numbers.map((x) => x*2);
 /* Output Sum of Multiplied by 2 Array */
-document.querySelector('#sumOfMultiplied').innerHTML = numbers.reduce();
+b = numbers.map((x) => x*2);
+document.querySelector('#sumOfMultiplied').innerHTML = numbers.reduce(((add,b) => (add) + b*2));
