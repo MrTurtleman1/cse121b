@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 let fullName = 'Max Tippetts';
 let curentYear = new Date().getFullYear();
-let profilePicture = 'images/me.jpeg';
+let profilePicture = '../images/me.jpeg';
 
 
 
